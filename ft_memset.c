@@ -1,11 +1,14 @@
 void	*memset(void *b, int c, size_t len)
 {
-	char	*p;
-	
-	p = (char *)b;
-	while (len > 0)
+	unsigned char	*p;
+	size_t		i;
+
+	p = b;
+	i = 0;
+	while (i < len)
 	{
-		p(len - 1) = c;
-		len--;
+		p[i] = (unsigned char)c;;
+		i++;
 	}
+	return (ptr);
 }
