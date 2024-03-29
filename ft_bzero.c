@@ -6,7 +6,13 @@
 /*   By: jorgegon <jorgegon@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 12:33:28 by jorgegonzal       #+#    #+#             */
-/*   Updated: 2024/03/27 16:50:49 by jorgegon         ###   ########.fr       */
+/*   Updated: 2024/03/29 09:17:46 by jorgegon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
+}

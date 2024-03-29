@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jorgegon <jorgegon@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: jorgegon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/11 14:45:03 by jorgegon          #+#    #+#             */
-/*   Updated: 2024/03/29 09:18:18 by jorgegon         ###   ########.fr       */
+/*   Created: 2024/03/29 13:52:27 by jorgegon          #+#    #+#             */
+/*   Updated: 2024/03/29 14:58:21 by jorgegon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(int c)
+size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
-		|| (c >= '0' && c <= '9'));
+
 }
